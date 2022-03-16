@@ -12,6 +12,20 @@ $btn-primary-background: var(--dse-btn-primary-background, $green) !default;
 $btn-primary-background-hover: var(--dse-btn-primary-background-hover, $green-light) !default;
 
 /*=============================================
+=            App Bar                          =
+=============================================*/
+$app-bar-colour: var(--dse-app-bar-colour, $app-bar-dark-light) !default;
+$app-bar-text-colour: var(--dse-app-bar-text-colour, $white) !default;
+$app-bar-colour-light: var(--dse-app-bar-colour-light, $white) !default;
+$app-bar-text-colour-light: var(--dse-app-bar-colour-light, $gray) !default;
+
+/*=============================================
+=       Floating Action Button (FAB)          =
+=============================================*/
+$fab-colour-default: var(--dse-fab-colour-default, $btn-green) !default;
+$fab-colour-hover: var(--dse-fab-colour-hover, $btn-green-hover) !default;
+
+/*=============================================
 =            Forms                            =
 =============================================*/
 $form-colour: var(--dse-form-colour, $dark) !default;
