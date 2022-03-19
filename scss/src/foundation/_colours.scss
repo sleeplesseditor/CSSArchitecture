@@ -9,7 +9,10 @@ $body-bg-colour: var(--dse-body-bg-colour, $white) !default;
 =============================================*/
 $btn-primary-colour: var(--dse-btn-primary-colour, $white) !default;
 $btn-primary-background: var(--dse-btn-primary-background, $green) !default;
-$btn-primary-background-hover: var(--dse-btn-primary-background-hover, $green-light) !default;
+$btn-primary-background-hover: var(
+  --dse-btn-primary-background-hover,
+  $green-light
+) !default;
 
 /*=============================================
 =            App Bar                          =
@@ -31,7 +34,10 @@ $fab-colour-hover: var(--dse-fab-colour-hover, $btn-green-hover) !default;
 $form-colour: var(--dse-form-colour, $dark) !default;
 $form-bg-colour: var(--dse-form-bg-colour, $white) !default;
 $form-bg-option-selected: var(--dse-form-bg-option-selected, $green) !default;
-$form-colour-option-selected: var(--dse-form-colour-option-selected, $white) !default;
+$form-colour-option-selected: var(
+  --dse-form-colour-option-selected,
+  $white
+) !default;
 $form-bg-colour-hover: var(--dse-form-bg-colour-hover, $white-dark) !default;
 $form-colour: var(--dse-form-colour, $dark) !default;
 $form-bg: var(--dse-form-bg, $white) !default;

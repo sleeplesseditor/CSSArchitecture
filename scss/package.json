@@ -1,15 +1,29 @@
 {
-  "name": "@scss",
+  "name": "scss",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "stylelint './**/*.scss'",
+    "lint:fix": "stylelint '**/*.scss' --fix -f verbose —color"
   },
   "keywords": [],
   "author": "Josh Bryson",
   "license": "ISC",
   "dependencies": {
     "normalize-scss": "^7.0.1"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
+    "prettier": "^2.6.0",
+    "stylelint": "^14.6.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-prettier": "^2.0.0"
   }
 }

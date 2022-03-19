@@ -10,9 +10,18 @@ $body-font-family: var(--dse-body-font-family, $playfair) !default;
 /*=============================================
 =            Heading font family                  =
 =============================================*/
-$heading-font-family-regular: var(--dse-heading-font-family-regular, $roboto-regular) !default;
-$heading-font-family-light: var(--dse-heading-font-family-light, $roboto-light) !default;
-$heading-font-family-medium: var(--dse-heading-font-family-medium, $roboto-medium) !default;
+$heading-font-family-regular: var(
+  --dse-heading-font-family-regular,
+  $roboto-regular
+) !default;
+$heading-font-family-light: var(
+  --dse-heading-font-family-light,
+  $roboto-light
+) !default;
+$heading-font-family-medium: var(
+  --dse-heading-font-family-medium,
+  $roboto-medium
+) !default;
 
 /*=============================================
 =            Body font sizes                  =
