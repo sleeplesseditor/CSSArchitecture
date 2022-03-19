@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "node src/scripts/build.js",
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "stylelint '**/*.scss' --fix -f verbose —color"
   },
@@ -11,6 +12,7 @@
   "author": "Josh Bryson",
   "license": "ISC",
   "dependencies": {
+    "node-sass": "^7.0.1",
     "normalize-scss": "^7.0.1"
   },
   "husky": {
