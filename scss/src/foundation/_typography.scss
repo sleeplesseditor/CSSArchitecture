@@ -8,6 +8,13 @@
 $body-font-family: var(--dse-body-font-family, $playfair) !default;
 
 /*=============================================
+=            Heading font family                  =
+=============================================*/
+$heading-font-family-regular: var(--dse-heading-font-family-regular, $roboto-regular) !default;
+$heading-font-family-light: var(--dse-heading-font-family-light, $roboto-light) !default;
+$heading-font-family-medium: var(--dse-heading-font-family-medium, $roboto-medium) !default;
+
+/*=============================================
 =            Body font sizes                  =
 =============================================*/
 
@@ -26,7 +33,7 @@ $h-5-font-size: var(--dse-h5-font-size, $h-5) !default;
 $h-6-font-size: var(--dse-h6-font-size, $h-6) !default;
 
 /*=============================================
-=            Head font weights                =
+=            Heading font weights             =
 =============================================*/
 
 $h-1-font-weight: var(--dse-h1-text-weight, $fw-black) !default;
