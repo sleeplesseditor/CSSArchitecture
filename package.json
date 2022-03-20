@@ -1,0 +1,23 @@
+{
+  "name": "senior-react-setup",
+  "version": "1.0.0",
+  "description": "An example of senior React dev practices, as influenced by Kati Franz's Udemy course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleeplesseditor/CSSArchitecture.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sleeplesseditor/CSSArchitecture/issues"
+  },
+  "homepage": "https://github.com/sleeplesseditor/CSSArchitecture#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
