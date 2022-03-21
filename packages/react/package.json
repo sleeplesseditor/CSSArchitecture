@@ -4,7 +4,8 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "dev": "yarn build --watch"
   },
   "files": [
     "lib"
@@ -13,8 +14,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^17.0.41",
-    "react": "^1.0.0",
+    "@types/react": "^16.9.43",
+    "react": "^16.13.1",
     "rollup": "^2.70.1",
     "rollup-plugin-typescript2": "^0.31.2",
     "typescript": "^4.6.2"

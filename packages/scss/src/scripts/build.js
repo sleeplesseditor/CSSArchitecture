@@ -11,7 +11,7 @@ const getComponents = () => {
     types.forEach((type) => {
         const allFiles = Fs.readdirSync(resolve(`src/${type}`)).map(file => ({
             input: resolve(`src/${type}/${file}`),
-            output: resolve(`src/lib/${file.slice(0, -4) + 'css'}`)
+            output: resolve(`lib/${file.slice(0, -4) + 'css'}`)
         }))
 
         allComponents = [
@@ -38,7 +38,7 @@ const compile = (path, fileName) => {
     )
 }
 
-compile(resolve('src/global.scss'), resolve('src/lib/global.css'))
+compile(resolve('src/global.scss'), resolve('lib/global.css'))
 
 getComponents().forEach(component => {
     compile(component.input, component.output)

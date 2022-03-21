@@ -1,6 +1,6 @@
-import React from 'react';
+import * as React from "react";
 interface ButtonProps {
     label: string;
 }
-declare const Button: React.FunctionComponent<ButtonProps>;
+declare const Button: React.FC<ButtonProps>;
 export default Button;

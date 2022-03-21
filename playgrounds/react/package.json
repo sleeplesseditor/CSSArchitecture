@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "parcel src/index.html -p 3000"
+    "dev": "parcel src/index.html -p 3000",
+    "build": "parcel build src/index.html"
   },
   "private": "true",
   "keywords": [],
-  "author": "",
+  "author": "Josh Bryson",
   "license": "ISC",
   "devDependencies": {
     "@types/react": "^16.9.43",

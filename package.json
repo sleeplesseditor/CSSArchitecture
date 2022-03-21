@@ -1,22 +1,23 @@
 {
-  "name": "senior-react-setup",
+  "name": "front-end-and-react-practices",
   "version": "1.0.0",
   "description": "An example of senior React dev practices, as influenced by Frantz Kati's Udemy course.",
   "main": "index.js",
   "scripts": {
-    "build": "yarn lerna run build"
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sleeplesseditor/CSSArchitecture.git"
+    "url": "git+https://github.com/sleeplesseditor/FrontEndAndReactPractices.git"
   },
   "keywords": [],
   "author": "Josh Bryson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sleeplesseditor/CSSArchitecture/issues"
+    "url": "https://github.com/sleeplesseditor/FrontEndAndReactPractices/issues"
   },
-  "homepage": "https://github.com/sleeplesseditor/CSSArchitecture#readme",
+  "homepage": "https://github.com/sleeplesseditor/FrontEndAndReactPractices#readme",
   "devDependencies": {
     "lerna": "^3.22.1"
   },

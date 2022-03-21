@@ -1,11 +1,10 @@
-import React from 'react';
-
+import * as React from "react"
 interface ButtonProps {
     label: string;
 }
 
-const Button: React.FunctionComponent<ButtonProps> = ({ label }) => (
-    <button>{label}</button>
-)
+const Button: React.FC<ButtonProps> = ({ label }) => {
+    return <button className="dse-button-container">{label}</button>
+}
 
 export default Button;

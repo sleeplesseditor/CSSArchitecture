@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node src/scripts/build.js",
+    "dev": "nodemon --watch src --exec yarn build -e scss",
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "stylelint '**/*.scss' --fix -f verbose —color"
   },
@@ -30,6 +31,7 @@
   "devDependencies": {
     "husky": "4.3.8",
     "lint-staged": "^12.3.7",
+    "nodemon": "^2.0.4",
     "prettier": "^2.6.0",
     "stylelint": "^14.6.0",
     "stylelint-config-prettier": "^9.0.3",
