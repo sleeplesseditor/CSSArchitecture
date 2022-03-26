@@ -7,3 +7,5 @@ The repo requires the [yarn package manager](https://classic.yarnpkg.com/lang/en
 ```
 yarn
 ```
+
+Ongoing issues have been identified with the scripts created as part of the course, but a solution has yet to be found due to lack of course support and obtuse documentation.

@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Button } from '../../../packages/react';
-import 'scss/lib/Buttons.css'
+import { Colour } from '../../../packages/react';
+
+import 'scss/lib/Utilities.css'
 
 ReactDOM.render(
     <div style={{ padding: '40px' }}>
-        <Button label="Example Button"></Button>
+        <Colour hexCode="#000"></Colour>
     </div>,
     document.querySelector('#root')
 )
