@@ -1,0 +1,21 @@
+{
+  "name": "@front-end-and-react-practices/foundation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn build -w"
+  },
+  "keywords": [],
+  "author": "Josh Bryson",
+  "license": "ISC",
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "typescript": "^3.9.7"
+  }
+}

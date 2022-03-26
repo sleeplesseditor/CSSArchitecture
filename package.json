@@ -1,5 +1,5 @@
 {
-  "name": "front-end-and-react-practices",
+  "name": "@front-end-and-react-practices/core",
   "version": "1.0.0",
   "description": "An example of senior React dev practices, as influenced by Frantz Kati's Udemy course.",
   "main": "index.js",

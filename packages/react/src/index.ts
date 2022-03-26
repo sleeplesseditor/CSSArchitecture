@@ -1,7 +1,9 @@
 import Colour from './atoms/Colour';
-import Spacing from './foundations/Spacing';
+import Margin from './atoms/Margin';
+import Text from './atoms/Text';
 
 export {
     Colour,
-    Spacing
+    Margin,
+    Text
 }
